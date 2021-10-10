@@ -60,6 +60,7 @@ main .home {
     height: 100vh;
     background: #9053F7;
     margin-top: 70px;
+    padding-bottom: 100px;
 } 
 
 main .home .home-container {
@@ -68,7 +69,6 @@ main .home .home-container {
     align-items: center;
     height: 100%;
     width: 100%;
-    
 }
 
 main .home .home-container .home-content {
@@ -82,10 +82,11 @@ main .home .home-container .home-content {
 }
 
 main .home .home-container .home-content h1 {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
     color: white;
-    width: 90%;
+    width: 100%;
+    margin: 100px 0 30px 0;
 }
 
 
@@ -93,38 +94,41 @@ main .home .home-container .home-content h1 {
 main .home .home-container .home-content .home-content-box {
     border: 1px solid white;
     border-radius: 20px;
-    height: 140px;
-    width: 350px;
+    height: 85px;
+    width: 230px;
     text-align: left;
     text-transform: uppercase;
     padding: 8px 25px;
+    margin-bottom: 30px;
 }
 
 
 main .home .home-container .home-content .home-content-box h3 {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
 main .home .home-container .home-content .home-content-box p {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 400;
     color: white;
 }
 
 main .home .home-container .home-content .home-content-first-p {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     width: 70%;
+    margin-bottom: 25px;
 }
 
 main .home .home-container .home-content .home-content-second-p {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
     width: 75%;
+    margin-bottom: 25px;
 }
 
 main .home .home-container .home-content .home-content-second-p span {
@@ -133,24 +137,25 @@ main .home .home-container .home-content .home-content-second-p span {
 }
 
 main .home .home-container .home-content .home-content-third-p {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
     width: 75%;
-    margin-bottom: 40px;
 }
 
 main .home .home-container .home-img {
     margin-right: 100px;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 main .home .home-container .home-img img{
-    width: 700px ;
+    width: 550px;
+    margin-top: 100px;
+    padding-right: 50px;
 }
 
 main .operation {
-    height: 100vh;
     background: #9053F7;
     padding: 50px 0;
 }
@@ -164,6 +169,7 @@ main .operation .operation-container {
 
 main .operation .operation-container .operation-h3 {
     margin-bottom: 20px;
+    padding: 0 30px
 }
 
 main .operation .operation-container .operation-h3 h3 {
@@ -187,6 +193,12 @@ main .operation .operation-container .operation-h2 h2 {
 
 main .operation .operation-container .operation-card {
     display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 main .operation .operation-container .operation-card .operation-card-content {
@@ -226,4 +238,82 @@ main .operation .operation-container .operation-card .operation-card-content .op
     margin-bottom: 20px;
 }
 
+main .faq {
+    background: white;
+    margin-bottom: 50px;
+}
+
+main .faq .faq-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+main .faq .faq-container .faq-text h3 {
+    color: #3B0596;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+main .faq .faq-container .faq-text h2 {
+    color: #3B0596;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: center;
+    /* width: 23rem; */  /* olhar mais tarde */
+}
+
+
+main .faq .faq-container .faq-accordion {
+    width: 100%;
+    padding: 15px 10px;
+    border-bottom: 1px solid #FE4400;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+main .faq .faq-container .faq-accordion .icon {
+    margin: 0 10px 0 0;
+    height: 25px;
+    width: 25px;
+    background: url(assets/plus-circle.svg) no-repeat 1px 1px #FE4400;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.4s ease-in-out;
+}
+
+main .faq .faq-container .faq-accordion.active .icon {
+    background: url(assets/minus.svg)  1px -23px white;
+}
+
+main .faq .faq-container .faq-accordion.active {
+    background: #FE4400;
+    border-radius: 50px;
+    color: white;
+} 
+
+main .faq .faq-container .faq-accordion.active h5 {
+    color: white;
+}
+
+main .faq .faq-container .faq-accordion h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #3B0596;
+}
+
+main .faq .faq-container .faq-panel {
+    border-left: 1px solid #FE4400;
+    padding: 0 15px;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease-in-out;
+}  
 
