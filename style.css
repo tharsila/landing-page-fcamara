@@ -280,7 +280,7 @@ main .faq .faq-container .faq-accordion .icon {
     margin: 0 10px 0 0;
     height: 25px;
     width: 25px;
-    background: url(assets/plus-circle.svg) no-repeat 1px 1px #FE4400;
+    background: url(assets/plus.svg) no-repeat 1px 1px #FE4400;
     border-radius: 50%;
     float: left;
     transition: all 0.4s ease-in-out;
