@@ -16,11 +16,15 @@ a {
     text-decoration: none;
 }
 
+main {
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 35px;
+    padding: 15px 35px;
     background: white;
     position: fixed;
     width: 100%;
@@ -74,10 +78,10 @@ main .home .home-container {
 main .home .home-container .home-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     height: 100%;
-    padding-left: 120px;
+    padding-left: 200px;
     flex: 1;
 }
 
@@ -146,7 +150,8 @@ main .home .home-container .home-content .home-content-third-p {
 main .home .home-container .home-img {
     margin-right: 100px;
     flex: 1;
-    flex-wrap: wrap;
+    width: 100%;
+    
 }
 
 main .home .home-container .home-img img{
@@ -187,12 +192,11 @@ main .operation .operation-container .operation-h2  {
 main .operation .operation-container .operation-h2 h2 {
     color: white;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
 main .operation .operation-container .operation-card {
-    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,6 +258,7 @@ main .faq .faq-container .faq-text h3 {
     font-weight: 500;
     margin-bottom: 15px;
     text-align: center;
+    font-size: 25px;
 }
 
 main .faq .faq-container .faq-text h2 {
@@ -317,3 +322,237 @@ main .faq .faq-container .faq-panel {
     transition: all 0.5s ease-in-out;
 }  
 
+main .schedule {
+    width: 100%;
+    background:#E5E5E5;
+}
+
+main .schedule .schedule-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main .schedule .schedule-container .schedule-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 25px;
+}
+
+main .schedule .schedule-container .schedule-content-width {
+    width: 50%;
+}
+
+main .schedule .schedule-container .schedule-content .schedule-content-width p {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+main .schedule .schedule-container .schedule-content .schedule-content-width span {
+    color: #FE4400;
+}
+
+main .schedule .schedule-container .schedule-content-width .schedule-button  button {
+    border: none;
+    background: #3B0596;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin: 30px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+main .schedule .schedule-container .schedule-content-width .schedule-button  button:hover {
+    background: #5b23bb;
+}
+
+main .schedule .schedule-container .schedule-content-width .schedule-text p {
+    font-size: 16px;
+    color: #303033;
+} 
+
+main .schedule .schedule-container .schedule-content-width .schedule-text .schedule-link {
+    margin-top: 20px;
+}
+
+main .schedule .schedule-container .schedule-content-width .schedule-text .schedule-link a {
+    color: #303033;
+    font-weight: bold;
+}
+
+main .schedule .schedule-container .schedule-img {
+    flex: 1;
+    width: 100%;
+    margin-top: 30px;
+}
+
+main .schedule .schedule-container .schedule-img img {
+    width: 500px;
+}
+
+.footer .footer-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #303033;
+}
+
+.footer .footer-container .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #303033;
+    width: 500px;
+}
+
+.footer .footer-container .footer-content .footer-logo  {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.footer .footer-container .footer-content .footer-logo img {
+    width: 80%;
+}
+
+.footer .footer-container .footer-content .footer-text {
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.footer .footer-container .footer-content .footer-text h3 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+ 
+.footer .footer-container .footer-content .social-media {
+    margin-top: 20px;
+}
+
+.footer .footer-container .footer-content .social-media svg {
+    margin-left: 20px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .footer-container .footer-content .social-media svg:hover {
+    color: #FE4400;
+}
+
+.footer .footer-container .footer-content .reserved {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footer .footer-container .footer-content .reserved p {
+    color: white;
+}
+
+
+@media(max-width:1100px) {
+
+    header .nav .nav-menu {
+        display: none;
+    }
+
+    header .nav .menu-hamburguer {
+        display: flex;
+    }
+
+    main .home {
+        height: 60vh;
+    }
+
+    main .home .home-container .home-content {
+        padding-left: 1px;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    main .home .home-container .home-content .home-content-second-p {
+        margin-bottom: 30px;
+    }
+
+    main .home .home-container .home-content .home-content-third-p {
+        margin-bottom: 50px;
+    }
+
+    main .home .home-container .home-img {
+        display: none;
+    }
+
+    main .operation .operation-container .operation-card {
+        flex-direction: column;
+    }
+    main .operation .operation-container .operation-h2{
+        width: 70%;
+    }
+
+    main .operation .operation-container .operation-card .operation-card-content {
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+    main .operation .operation-container .operation-card .operation-card-content .operation-card-content-p {
+        text-align: center;
+    }
+
+    main .schedule .schedule-container .schedule-content {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    main .schedule .schedule-container .schedule-content-width {
+        width: 40%;
+        text-align: center;
+    }
+
+    main .schedule .schedule-container .schedule-content-width .schedule-text .schedule-link {
+        margin-bottom: 25px;
+    }
+
+
+    main .schedule .schedule-container .schedule-img {
+        display: none;
+    }
+    
+}
+
+@media(max-width:750px) {
+
+    main .home {
+        height: 100vh    
+    }
+
+
+    main .home .home-container .home-content h1 {
+        font-size: 35px;
+    }
+
+    main .home .home-container .home-content .home-content-second-p {
+        font-size: 17px;
+    }
+
+    main .home .home-container .home-content .home-content-third-p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:550px) {
+    
+}
