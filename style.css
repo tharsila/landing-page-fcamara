@@ -553,7 +553,7 @@ main .schedule .schedule-container .schedule-img img {
     }
 
     main .schedule .schedule-container .schedule-content .schedule-content-width {
-        width: 50%;
+        width: 70%;
     }
 
     main .schedule .schedule-container .schedule-content .schedule-content-width p {
@@ -562,6 +562,18 @@ main .schedule .schedule-container .schedule-img img {
 
     main .schedule .schedule-container .schedule-content-width .schedule-button  button {
         font-size: 17px;
+    }
+
+    .footer .footer-container .footer-content .footer-text h3 {
+        font-size: 27px;
+    }
+
+    .footer .footer-container .footer-content .footer-logo {
+        margin-left: 75px;
+    }
+
+    .footer .footer-container .footer-content .footer-logo img{
+        width: 70%;
     }
 
 }
@@ -588,4 +600,21 @@ main .schedule .schedule-container .schedule-img img {
         font-size: 14px;
     }
 
+}
+
+@media(max-width:320px) {
+    main .home {
+        height: 100vh;
+    }
+
+}
+
+@media(max-width:280px) {
+
+    main .home .home-container .home-content {
+        margin-top: 80px;
+    }
+    main .operation .operation-container .operation-card .operation-card-content {
+        width: 240px;
+    }
 }
