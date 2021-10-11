@@ -36,7 +36,7 @@ header .logo img {
     width: 50%;
 }
 
-header .nav .menu-hamburguer {
+header .menu-hamburguer {
     display: none;
 }
 
@@ -464,12 +464,60 @@ main .schedule .schedule-container .schedule-img img {
 
 @media(max-width:1100px) {
 
-    header .nav .nav-menu {
-        display: none;
+    header .nav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0;
+        background: white;
+        transition: all 0.4s ease-in-out;
     }
 
-    header .nav .menu-hamburguer {
+
+    header .nav .nav-menu {
         display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    header .nav.show-menu{
+
+        width: 60%;
+    }
+
+    header .menu-hamburguer {
+        display: flex;
+        z-index: 10000;
+        cursor: pointer;
+    }
+
+    header .nav .nav-menu .nav-item {
+        margin: 100px 0 0 0;  
+        text-align: center;
+    }
+
+    header .nav .nav-menu .nav-item .nav-link {
+        position: relative;
+        transition: all 0.4s ease-in-out;
+    }
+
+    header .nav .nav-menu .nav-item .nav-link:before {
+        content:"";
+        position: absolute;
+        background: #FE4400;
+        width: 0;    
+        height: 2px;
+        bottom: 0;
+        /* left: 0; */
+        transition: all 0.4s ease-in-out;
+    }
+
+    header .nav .nav-menu .nav-item .nav-link:hover::before {
+        width: 100%;
+    }
+
+    header .nav .nav-menu .nav-item .nav-link.active-link {
+        color: #FE4400;
     }
 
     main .home {
