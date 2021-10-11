@@ -2,7 +2,7 @@
  
  <h2>Projeto Online no GitHub Pages</h2>
  <ul>
- <li><a href="https://tharsila.github.io/landing-page-fcamara/"> Site da landing page</a></li>
+ <li><a href="https://tharsila.github.io/landing-page-fcamara/" target="_blank"> Site da landing page</a></li>
  </ul>
  
  <h2>Tabela de Conteúdos</h2>
@@ -68,5 +68,6 @@ caso seja essa a vontade do consultor.<p>
  <hr>
  
  <h2>:memo: Licença</h2>
+ <p> Feito com :orange_heart: por <strong>Tharsila Borges</strong></p>
 
 <hr>
