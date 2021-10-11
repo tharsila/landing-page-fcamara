@@ -2,7 +2,7 @@
  
  <h2>Projeto Online no GitHub Pages</h2>
  <ul>
- <li><a href="https://tharsila.github.io/landing-page-fcamara/" target="_blank"> Site da landing page</a></li>
+ <li><a href="https://tharsila.github.io/landing-page-fcamara/"> Site da landing page</a></li>
  </ul>
  
  <h2>Tabela de Conteúdos</h2>
@@ -16,7 +16,7 @@
   <hr>
  
 <h2> :page_with_curl: Sobre o projeto</h2>
-<p>A landing page é um website responsivo para introduzir informações
+<p>O agendamento online é um website responsivo para introduzir informações
 sobre as idas dos #SangueLaranjas ao escritório, de modo que eles possam retornar com segurança a empresa, 
 caso seja essa a vontade do consultor.<p>
  <hr>
