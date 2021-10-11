@@ -22,6 +22,27 @@ caso seja essa a vontade do consultor.<p>
  <hr>
  
  <h2>:art: Layout</h2>
+ <h3>Mobile</h3>
+ 
+ <div align="center">
+ 
+ <img src ="https://github.com/tharsila/landing-page-fcamara/blob/main/assets/print/home-mobile.PNG" width="200px" />
+ <img src ="https://user-images.githubusercontent.com/89864249/136861319-ccee7f20-6762-4ef8-b73b-b04a30323d3e.PNG" width= "200px" />
+ <img src ="https://user-images.githubusercontent.com/89864249/136861353-44587103-1396-43b9-8ca7-73d421decb1c.PNG" width= "200px" />
+ <img src ="https://user-images.githubusercontent.com/89864249/136861379-0484aef7-d7c5-4c62-ad77-b8d8d644b4ba.PNG" width= "200px" />
+ 
+ </div>
+ 
+ <h3>Web</h3>
+ 
+ <div align="center">
+ 
+ <img src = "https://user-images.githubusercontent.com/89864249/136861540-0708beb9-511c-46b3-8d79-964295e35749.png" width="400px"/>
+ <img src = "https://user-images.githubusercontent.com/89864249/136861550-0e61dd07-e5d0-4cca-b299-28dde893db04.png" width="400px"/>
+ <img src = "https://user-images.githubusercontent.com/89864249/136861561-dbacf648-875f-4d10-89b6-4aec32638b14.png" width="400px"/>
+ <img src = "https://user-images.githubusercontent.com/89864249/136861573-bf10860a-46b8-4eb5-b92d-b7af1ea2ddf9.png" width="400px"/>
+ 
+ </div>
  
  <hr>
  
