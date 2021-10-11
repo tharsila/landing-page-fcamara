@@ -26,6 +26,17 @@ caso seja essa a vontade do consultor.<p>
  <hr>
  
  <h2>:hammer_and_wrench: Tecnologias</h2>
+ <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
+ 
+ <h3>Website</h3>
+ <ul>
+ <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></li>
+ <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></li>
+ <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/Javascript">JavaScript</a></li>
+ </ul>
+ 
+ <h3>Utilitário</h3>
+
  
  <hr>
  
