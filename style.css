@@ -283,8 +283,8 @@ main .faq .faq-container .faq-accordion {
 
 main .faq .faq-container .faq-accordion .icon {
     margin: 0 10px 0 0;
-    height: 25px;
-    width: 25px;
+    min-height: 25px;
+    min-width: 25px;
     background: url(assets/plus.svg) no-repeat 1px 1px #FE4400;
     border-radius: 50%;
     float: left;
@@ -517,12 +517,12 @@ main .schedule .schedule-container .schedule-img img {
         padding-left: 0;
     }
 
-    main .schedule .schedule-container .schedule-content-width {
+    main .schedule .schedule-container .schedule-content .schedule-content-width {
         width: 40%;
         text-align: center;
     }
 
-    main .schedule .schedule-container .schedule-content-width .schedule-text .schedule-link {
+    main .schedule .schedule-container .schedule-content .schedule-content-width .schedule-text .schedule-link {
         margin-bottom: 25px;
     }
 
@@ -551,8 +551,41 @@ main .schedule .schedule-container .schedule-img img {
     main .home .home-container .home-content .home-content-third-p {
         font-size: 17px;
     }
+
+    main .schedule .schedule-container .schedule-content .schedule-content-width {
+        width: 50%;
+    }
+
+    main .schedule .schedule-container .schedule-content .schedule-content-width p {
+        font-size: 22px;
+    }
+
+    main .schedule .schedule-container .schedule-content-width .schedule-button  button {
+        font-size: 17px;
+    }
+
 }
 
 @media(max-width:550px) {
-    
+
+    main .home {
+        height: 80vh;
+    }
+
+    main .home .home-container .home-content {
+       margin-top: 30px;
+    }
+
+    main .operation .operation-container .operation-h3 h3, main .faq .faq-container .faq-text h3 {
+        font-size: 22px;
+    }
+
+    main .operation .operation-container .operation-h2 h2, main .faq .faq-container .faq-text h2 {
+        font-size: 26px;
+    }
+
+    main .faq .faq-container .faq-accordion h5, main .faq .faq-container .faq-accordion.active h5 {
+        font-size: 14px;
+    }
+
 }
