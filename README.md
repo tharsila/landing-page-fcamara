@@ -35,7 +35,13 @@ caso seja essa a vontade do consultor.<p>
  <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/Javascript">JavaScript</a></li>
  </ul>
  
- <h3>Utilitário</h3>
+ <h3>Utilitários</h3>
+ <ul>
+ <li><p>Protótipo: <a href="https://www.figma.com">Figma</a> → <a href="https://www.figma.com/file/ki7Mptih8nGhp8NgewZYoa/Untitled?node-id=0%3A1">
+  Protótipo (Agendamento Online)</a></p></li>
+ <li><p>Ícones: <a href="https://feathericons.com/">Feather Icons</a></p></li>
+ <li><p>Fontes: <a href="https://fonts.google.com/specimen/Montserrat">Montserrat</a></p></li>
+ </ul>
 
  
  <hr>
