@@ -54,12 +54,23 @@ function colorLink() {
 
 /*------------------- Scroll suave -------------------------------*/
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+const menuLink = document.querySelectorAll('a[href^="#"]');
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+document.querySelectorAll('a[href^="#"]')
+
+    function anchorActive (event) {
+        event.preventDefault();
+        const href = event.currentTarget.getAttribute('href');
+        const section = document.querySelector(href);
+
+        section.scrollIntoView({
+            behavior:'smooth',
+            block:'start',
+        })
+    }
+
+    
+
+menuLink.forEach((link) => {
+    link.addEventListener('click', anchorActive);
+})
