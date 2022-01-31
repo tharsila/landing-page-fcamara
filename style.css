@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    scroll-padding-top: 5rem;
 }
 
 
@@ -30,6 +31,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
 }
 
 header .logo img {
@@ -628,6 +630,10 @@ main .schedule .schedule-container .schedule-img img {
 
 @media(max-width:550px) {
 
+    header {
+        box-shadow: 0 0;
+    }
+
     main .home {
         height: 80vh;
     }
@@ -665,4 +671,5 @@ main .schedule .schedule-container .schedule-img img {
     main .operation .operation-container .operation-card .operation-card-content {
         width: 240px;
     }
+
 }
