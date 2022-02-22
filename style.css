@@ -35,7 +35,7 @@ header {
 }
 
 header .logo img {
-    width: 50%;
+    width: 40%;
 }
 
 header .menu-hamburguer {
@@ -205,6 +205,7 @@ main .operation .operation-container .operation-card {
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 main .operation .operation-container .operation-card .operation-card-content {
@@ -368,7 +369,7 @@ main .schedule .schedule-container .schedule-content-width .schedule-button  but
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    width: 100%;
+    width: 75%;
     margin: 30px 0;
     transition: all 0.4s ease-in-out;
 }
@@ -579,6 +580,10 @@ main .schedule .schedule-container .schedule-img img {
 
     main .schedule .schedule-container .schedule-img {
         display: none;
+    }
+
+    main .schedule .schedule-container .schedule-content-width .schedule-button  button {
+        width: 100%;
     }
     
 }
