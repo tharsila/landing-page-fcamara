@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Agendamento</title>
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
@@ -66,62 +67,59 @@
         </section>
     
         <section class="operation" id="operation">
-                <div class="operation-container">
+            <div class="operation-container">
                     
-                    <div class="operation-h3">
-                        <h3>Funcionamento</h3>
-                    </div>
+                <div class="operation-h3">
+                    <h3>Funcionamento</h3>
+                </div>
                     
-                    <div class="operation-h2">
-                        <h2>Entenda como será o processo para ir para o escritório</h2>
-                    </div>
+                <div class="operation-h2">
+                    <h2>Entenda como será o processo para ir para o escritório</h2>
+                </div>
 
-                    <div class="operation-card">
-
+                <div class="operation-card">
+                    <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
                         <div class="operation-card-content">
                             <div class="logo-card">
-                                <i data-feather="briefcase"></i>
+                                    <i data-feather="briefcase"></i>
                             </div>
-
-                            <div class="operation-card-content-p">
-                                <p>Os escritórios voltarão a ficar abertos no horário das 8h às 18h.</p>
-                                <p>Os consultores poderão escolher qual escritório, São Paulo (principal) ou  Santos (filial), desejam ir.</p>
-                                <!-- <p>Os escritórios só podem comportar até 40% dos consultores, conforme a legislação.</p> -->
+    
+                             <div class="operation-card-content-p">
+                                    <p>Os escritórios voltarão a ficar abertos no horário das 8h às 18h.</p>
+                                    <p>Os consultores poderão escolher qual escritório, São Paulo (principal) ou  Santos (filial), desejam ir.</p>
                             </div>
-
                         </div>
+                    </div>
 
+                    <div data-aos="fade-left"  data-aos-delay="500" data-aos-duration="900">
                         <div class="operation-card-content">
                             <div class="logo-card">
-                                <i data-feather="users"></i>
+                                 <i data-feather="users"></i>
                             </div>
-
+    
                             <div class="operation-card-content-p">
-                                <!-- <p>Será medida a temperatura ao chegar no escritório.</p> -->
                                 <p>Todos os consultores deverão usar máscaras dentro das acomodações dos escritórios.</p>
                                 <p>Quem estiver sentindo algum sintoma não deve ir trabalhar presencialmente, a indicação é para que permaneça em casa.</p>
-                            </div>
-
+                             </div>
                         </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900">
 
                         <div class="operation-card-content">
                             <div class="logo-card">
-                                <i data-feather="calendar"></i>
+                                 <i data-feather="calendar"></i>
                             </div>
-
+    
                             <div class="operation-card-content-p">
                                 <p>O retorno ao escritório só é possível através de um sistema de agendamento</p>
                                 <p>Nas mesas existem adesivos sinalizando onde os #SangueLaranjas devem sentar, para que haja o distanciamento necessário.</p>
                                 <p></p>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
-
+            </div>
         </section>
     
         <section class="faq" id="faq">
@@ -230,27 +228,31 @@
         <section class="schedule" id="contact">
                 <div class="schedule-container">
 
-                    <div class="schedule-content">
-
-                        <div class="schedule-content-width">
-                            <p><span>#SangueLaranjas</span>, venham agendar sua ida ao escritório.</p>
+                    <div data-aos="fade-right" data-aos-duration="1500">
+                        <div class="schedule-content">
     
-                            <div class="schedule-button">
-                               <a href="https://squad-22.github.io/frontend/"><button> Agende agora</button></a>
-                            </div>
-    
-                            <div class="schedule-text">
-                                <p>Ficou com alguma dúvida?</p>
-                                <p>Entre em contato</p>
-                                <div class="schedule-link">
-                                    <a href="mailto:fcamara@fcamara.com.br">fcamara@fcamara.com.br</a>
+                            <div class="schedule-content-width">
+                                <p><span>#SangueLaranjas</span>, venham agendar sua ida ao escritório.</p>
+        
+                                <div class="schedule-button">
+                                   <a href="https://squad-22.github.io/frontend/"><button> Agende agora</button></a>
+                                </div>
+        
+                                <div class="schedule-text">
+                                    <p>Ficou com alguma dúvida?</p>
+                                    <p>Entre em contato</p>
+                                    <div class="schedule-link">
+                                        <a href="mailto:fcamara@fcamara.com.br">fcamara@fcamara.com.br</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="schedule-img">
-                        <img src="assets/schedule.png" alt="">
+                    <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="1500">
+                        <div class="schedule-img">
+                            <img src="assets/schedule.png" alt="">
+                        </div>
                     </div>
                 </div>
         </section>
@@ -286,7 +288,10 @@
     <script>
         feather.replace()
     </script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="script.js"></script>
 </body>
 </html>
