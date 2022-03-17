@@ -17,6 +17,24 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    border: none;
+    background: #3B0596;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75%;
+    margin: 30px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background: #5b23bb;
+}
+
 main {
     width: 100%;
 }
@@ -34,8 +52,12 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
 }
 
+header .logo {
+    width: 100%;
+}
+
 header .logo img {
-    width: 40%;
+    width: 150px;
 }
 
 header .menu-hamburguer {
@@ -360,24 +382,6 @@ main .schedule .schedule-container .schedule-content .schedule-content-width spa
     color: #FE4400;
 }
 
-main .schedule .schedule-container .schedule-content-width .schedule-button  button {
-    border: none;
-    background: #3B0596;
-    color: white;
-    padding: 10px 60px;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    width: 75%;
-    margin: 30px 0;
-    transition: all 0.4s ease-in-out;
-}
-
-main .schedule .schedule-container .schedule-content-width .schedule-button  button:hover {
-    background: #5b23bb;
-}
-
 main .schedule .schedule-container .schedule-content-width .schedule-text p {
     font-size: 16px;
     color: #303033;
@@ -669,6 +673,9 @@ main .schedule .schedule-container .schedule-img img {
 }
 
 @media(max-width:280px) {
+    header .logo img {
+        width: 130px;
+    }
 
     main .home .home-container .home-content {
         margin-top: 80px;
