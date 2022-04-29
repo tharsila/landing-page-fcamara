@@ -4,19 +4,20 @@ let acc = document.getElementsByClassName('faq-accordion');
 let i;
 let len = acc.length;
 
-for ( i = 0; i < len; i++) {
-    acc[i].addEventListener('click', function() {
-        this.classList.toggle('active');
-        let panel = this.nextElementSibling;
-
-        if(panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + 'px';
-        }
-    })
+function handleAccordion () {
+    this.classList.toggle('active');
+    let panel = this.nextElementSibling;
+    
+    if(panel.style.maxHeight) {
+         panel.style.maxHeight = null;
+    } else {
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
 }
 
+for ( i = 0; i < len; i++) {
+    acc[i].addEventListener('click', handleAccordion);
+}
 
 /*-------------- Menu hamburguer -------------------*/
 
@@ -32,6 +33,7 @@ function toggleMenu() {
 /*------------ REMOVER MENU MOBILE -------------*/
 let navLink = document.querySelectorAll('.nav-link');
 
+window.addEventListener('scroll', removeMobile);
 navLink.forEach(n => n.addEventListener('click', removeMobile));
 
 /*Quando um link ou o botão close for clicado a class show-menu será removido*/
@@ -68,8 +70,6 @@ document.querySelectorAll('a[href^="#"]')
             block:'start',
         })
     }
-
-    
 
 menuLink.forEach((link) => {
     link.addEventListener('click', anchorActive);
